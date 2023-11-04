@@ -1,0 +1,10 @@
+###
+
+POST http://localhost:3333/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Thiago Cifani",
+  "email": "cifani.thiago@gmail.com",
+  "password": "123456"
+}
