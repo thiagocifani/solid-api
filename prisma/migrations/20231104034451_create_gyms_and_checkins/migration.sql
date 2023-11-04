@@ -9,12 +9,12 @@ ALTER TABLE "users" ADD COLUMN     "created_at" TIMESTAMP(3) NOT NULL DEFAULT CU
 ADD COLUMN     "password_hash" TEXT NOT NULL;
 
 -- CreateTable
-CREATE TABLE "check-ins" (
+CREATE TABLE "check_ins" (
     "id" TEXT NOT NULL,
     "created_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "is_validated" TIMESTAMP(3),
 
-    CONSTRAINT "check-ins_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "check_ins_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
